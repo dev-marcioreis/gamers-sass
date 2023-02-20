@@ -14,7 +14,8 @@
 }
 
 /*==========Root==========*/
-$bg-color: hsl(227, 26%, 13%);
+$bg-color: linear-gradient(30deg, hsl(349, 98%, 58%), hsl(227, 26%, 13%));
+$blue-color: hsl(227, 26%, 13%);
 $black-color: hsl(0, 0%, 0%);
 $white-color: hsl(0, 0%, 100%);
 $transparent-color: rgba(0, 0, 0, 0);
@@ -22,5 +23,8 @@ $red-color: hsl(349, 98%, 58%);
 $grey-color: hsl(0, 0%, 48%);
 $text-color: hsl(0, 1%, 77%);
 $glass-color: hsla(0, 0%, 100%, 0.075);
-$shadow: 0 1px 4px hsla(0, 0%, 0%, 0.2);
 $transition: all 400ms ease;
+$shadow: 0 1px 4px hsla(0, 0%, 0%, 0.2);
+$shadow2: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+$shadow3: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+$shadow4: 0 25px 35px  rgba(0, 0, 0, 0.2); 
