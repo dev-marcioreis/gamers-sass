@@ -1,0 +1,26 @@
+/*==========Google Fonts==========*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+/*==========Reset==========*/
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Nunito', sans-serif;
+}
+
+/*==========Root==========*/
+$bg-color: hsl(227, 26%, 13%);
+$black-color: hsl(0, 0%, 0%);
+$white-color: hsl(0, 0%, 100%);
+$transparent-color: rgba(0, 0, 0, 0);
+$red-color: hsl(349, 98%, 58%);
+$grey-color: hsl(0, 0%, 48%);
+$text-color: hsl(0, 1%, 77%);
+$glass-color: hsla(0, 0%, 100%, 0.075);
+$shadow: 0 1px 4px hsla(0, 0%, 0%, 0.2);
+$transition: all 400ms ease;
