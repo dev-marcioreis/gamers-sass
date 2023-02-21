@@ -17,14 +17,13 @@
             }
         
             .card {
-                border: 4px solid $glass-color;
+                background: $yellow-color;
                 padding: .1rem;
                 border-radius: .5rem;
                 transition: $transition;
                 cursor: pointer;
 
                 &:hover {
-                    background: $card-color;
 
                     .card-image {
                         transform: scale(1.4) rotate(5deg);
