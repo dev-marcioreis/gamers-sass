@@ -26,6 +26,7 @@ const scrollPage = ScrollReveal({
 })
 
 scrollPage.reveal(`.moon`, {delay: 200, origin: 'bottom'})
+scrollPage.reveal(`.about-image`, {delay: 100, origin: 'left'})
 
 
 
