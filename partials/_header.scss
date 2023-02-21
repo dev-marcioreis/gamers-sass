@@ -155,9 +155,26 @@
             }
 
             .active {
+                width: 97vw;
                 height: 22rem;
                 border-radius: 1.2rem .5rem .5rem .5rem;
                 transition: width 1s ease-in-out, height 1.5s ease-in-out;
+            }
+        }
+    }
+
+}
+
+
+/*==========Media Query==========*/
+@media (max-width: 768px) {
+    .header {
+
+        .container {
+
+            .active {
+                width: 94vw;
+                height: 22rem;
             }
         }
     }

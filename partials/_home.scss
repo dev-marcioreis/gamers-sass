@@ -68,3 +68,82 @@
         }
     }
 }
+
+
+/*==========Media Query==========*/
+@media (max-width: 1024px) {
+    .home {
+    
+        .moon {
+            top: -8rem;
+            left: -45rem;
+        }
+    
+        .home__container {
+    
+            .home-text {
+                font-size: 9.5rem;
+            }
+    
+            .home-image {
+                top: 4rem;
+            }
+        }
+    }
+
+}
+
+
+/*==========Media Query==========*/
+@media (max-width: 768px) {
+    .home {
+    
+        .bubbles {
+            position: absolute;
+        }
+    
+        .moon {
+            top: -5rem;
+            left: -37rem;
+        }
+    
+        .home__container {
+    
+            .home-text {
+                bottom: 20rem;
+                font-size: 6.5rem;
+            }
+    
+            .home-image {
+                top: 9rem;
+                width: 20rem;
+                height: 35rem;
+            }
+        }
+    }
+    
+
+}
+
+
+/*==========Media Query==========*/
+@media (max-width: 548px) {
+    .home {
+    
+        .moon {
+            width: 200%;
+            top: -2rem;
+            left: -20rem;
+        }
+    
+        .home__container {
+    
+            .home-text {
+                bottom: 25rem;
+                font-size: 4.5rem;
+            }
+        }
+    }
+    
+
+}
