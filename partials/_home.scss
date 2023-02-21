@@ -1,6 +1,5 @@
 .home {
     position: relative;
-    height: 100vh;
     overflow: hidden;
 
     .bubbles {
@@ -54,7 +53,7 @@
 
         .home-image {
             position: relative;
-            top: 7rem;
+            top: 3rem;
             width: 35rem;
             height: 40rem;
             z-index: 10;
@@ -84,10 +83,6 @@
             .home-text {
                 font-size: 9.5rem;
             }
-    
-            .home-image {
-                top: 4rem;
-            }
         }
     }
 
@@ -115,7 +110,7 @@
             }
     
             .home-image {
-                top: 9rem;
+                top: 1rem;
                 width: 20rem;
                 height: 35rem;
             }
@@ -139,8 +134,14 @@
         .home__container {
     
             .home-text {
-                bottom: 25rem;
+                bottom: 21rem;
                 font-size: 4.5rem;
+            }
+
+            .home-image {
+                top: 7rem;
+                width: 20rem;
+                height: 35rem;
             }
         }
     }
