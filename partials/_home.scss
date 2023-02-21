@@ -1,0 +1,70 @@
+.home {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+
+    .bubbles {
+        position: relative;
+        align-items: center;
+        justify-content: center;
+
+        span {
+            position: relative;
+            width: .2rem;
+            height: .4rem;
+            background: $red-color;
+            margin: 0 4px;
+            animation: animate 15s linear infinite;
+            animation-duration: calc(50s / var(--i));
+
+            &:nth-child(even) {
+                background: $orange-color;
+            }
+        }
+
+        @keyframes animate {
+            0% {
+                transform: translateY(100vh);
+            }
+            100% {
+                transform: translateY(-10vh) scale(1);
+            }
+        }
+    }
+
+    .moon {
+        position: absolute;
+        top: -10rem;
+        left: -62rem;
+        mix-blend-mode: exclusion;
+    }
+
+    .home__container {
+        justify-content: center;
+        align-items: center;
+
+        .home-text {
+            position: absolute;
+            bottom: 17rem;
+            font-family: $logo-font;
+            font-size: 15rem;
+            text-transform: uppercase;
+            color: $glass-color;
+        }
+
+        .home-image {
+            position: relative;
+            top: 7rem;
+            width: 35rem;
+            height: 40rem;
+            z-index: 10;
+
+            img {
+                object-fit: contain;
+                width: 100%;
+                height: 100%;
+                filter: brightness(1.5);
+            }
+        }
+    }
+}

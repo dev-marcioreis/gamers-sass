@@ -1,6 +1,11 @@
 /*==========Google Fonts==========*/
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap');
 
+@font-face {
+    font-family: 'GODOFWAR';
+    src: url('../assets/fonts/GODOFWAR.TTF');
+}
+
 /*==========Reset==========*/
 *, *::before, *::after {
     margin: 0;
@@ -14,12 +19,15 @@
 }
 
 /*==========Root==========*/
-$bg-color: linear-gradient(30deg, hsl(349, 98%, 58%), hsl(227, 26%, 13%));
+$bg-color: linear-gradient(30deg, hsl(349, 98%, 58%), hsl(0, 0%, 0%));
+$bg2-color: linear-gradient(180deg, hsl(227, 26%, 13%), hsl(0, 0%, 0%));
 $blue-color: hsl(227, 26%, 13%);
+$blue2-color: hsl(235, 100%, 12%);
 $black-color: hsl(0, 0%, 0%);
 $white-color: hsl(0, 0%, 100%);
 $transparent-color: rgba(0, 0, 0, 0);
 $red-color: hsl(349, 98%, 58%);
+$orange-color: hsl(39, 100%, 50%);
 $grey-color: hsl(0, 0%, 48%);
 $text-color: hsl(0, 1%, 77%);
 $glass-color: hsla(0, 0%, 100%, 0.075);
@@ -28,3 +36,4 @@ $shadow: 0 1px 4px hsla(0, 0%, 0%, 0.2);
 $shadow2: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
 $shadow3: 0 25px 50px -12px rgb(0 0 0 / 0.25);
 $shadow4: 0 25px 35px  rgba(0, 0, 0, 0.2); 
+$logo-font: 'GODOFWAR', sans-serif;

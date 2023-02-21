@@ -1,5 +1,4 @@
 .header {
-    z-index: 999;
 
     .container {
 
@@ -15,6 +14,7 @@
             justify-content: space-between;
             transition: width 1s ease-in-out;
             overflow: hidden;
+            z-index: 999;
 
             .logo-box {
                 position: relative;
@@ -47,8 +47,7 @@
                 .logo-name {
                     white-space: nowrap;
                     text-transform: uppercase;
-                    font-weight: 1000;
-                    letter-spacing: -1px;
+                    font-family: $logo-font;
                     color: $white-color;
                 }
             }
@@ -62,7 +61,7 @@
 
                 .open-btn, .close-btn {
                     font-size: 2rem;
-                    color: $white-color;
+                    color: $text-color;
                     cursor: pointer;
 
                 }
@@ -87,14 +86,19 @@
                     transition: $transition;
 
                     a {
-                        color: $white-color;
+                        color: $text-color;
+                        font-family: $logo-font;
                         font-size: 1.2rem;
-                        font-weight: 500;
-                        text-transform: capitalize;
+                        text-transform: uppercase;
+
+                        &:hover {
+                            color: $white-color;
+                        }
                     }
 
                     &:hover {
                         transform: scale(1.2);
+                        color: $white-color;
                     }
                 }
             }
