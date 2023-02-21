@@ -8,7 +8,7 @@
             right: 4rem;
             width: 6rem;
             height: 3rem;
-            background: $red-color;
+            background: $yellow-color;
             box-shadow: $shadow;
             border-radius: 5rem 1rem 1rem 5rem;
             justify-content: space-between;
@@ -61,7 +61,7 @@
 
                 .open-btn, .close-btn {
                     font-size: 2rem;
-                    color: $text-color;
+                    color: $white-color;
                     cursor: pointer;
 
                 }
@@ -86,13 +86,13 @@
                     transition: $transition;
 
                     a {
-                        color: $text-color;
+                        color: $white-color;
                         font-family: $logo-font;
                         font-size: 1.2rem;
                         text-transform: uppercase;
 
                         &:hover {
-                            color: $white-color;
+                            color: $black-color;
                         }
                     }
 
@@ -106,14 +106,14 @@
 
         .active {
             width: 94vw;
-            background: $bg-color;
+            background: $yellow-color;
             box-shadow: $shadow2;
 
             & .logo-box {
                 width: calc(100% - 3rem);
 
                 & .logo {
-                    background: $red-color;
+                    background: $yellow-color;
 
                     img {
                         filter: invert(1);

@@ -4,7 +4,7 @@ html {
     transition: $transition;
 }
 body {
-    background: $bg2-color;
+    background: $black-color;
     color: $text-color;
 
     &::-webkit-scrollbar {
@@ -16,7 +16,7 @@ body {
     }
 
     &::-webkit-scrollbar-thumb {
-        background: $red-color;
+        background: $yellow-color;
     }
 }
 .section {

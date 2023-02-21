@@ -31,13 +31,6 @@
         }
     }
 
-    .moon {
-        position: absolute;
-        top: -10rem;
-        left: -62rem;
-        mix-blend-mode: exclusion;
-    }
-
     .home__container {
         justify-content: center;
         align-items: center;
@@ -73,11 +66,6 @@
 @media (max-width: 1024px) {
     .home {
     
-        .moon {
-            top: -8rem;
-            left: -45rem;
-        }
-    
         .home__container {
     
             .home-text {
@@ -95,11 +83,6 @@
     
         .bubbles {
             position: absolute;
-        }
-    
-        .moon {
-            top: -5rem;
-            left: -37rem;
         }
     
         .home__container {
@@ -134,7 +117,7 @@
         .home__container {
     
             .home-text {
-                bottom: 21rem;
+                bottom: 24rem;
                 font-size: 4.5rem;
             }
 
