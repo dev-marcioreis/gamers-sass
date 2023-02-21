@@ -17,3 +17,15 @@ const closeMenu = () => {
 closeBtn.addEventListener('click', closeMenu)
 
 
+
+const scrollPage = ScrollReveal({
+    origin: 'top',
+    distance: '500px',
+    duration: 2500,
+    delay: 400
+})
+
+scrollPage.reveal(`.moon`, {delay: 200, origin: 'bottom'})
+
+
+
