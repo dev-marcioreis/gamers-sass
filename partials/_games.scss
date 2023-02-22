@@ -16,8 +16,8 @@
 
         .games-card {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 1rem;
+            grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+            gap: 2rem;
             place-items: center;
 
             .card {
@@ -139,3 +139,17 @@
 
 
 /*==========Media Query==========*/
+@media (max-width: 768px) {
+    .games {
+    
+        .games__container {
+            padding: 0;
+    
+            .games-card {
+                grid-template-columns: 1fr;
+                gap: 3rem;
+            }
+        }
+    }
+
+}
