@@ -1,0 +1,124 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-block-start: 5rem;
+    padding-top: 3rem;
+    background: $yellow-color;
+
+    .footer__container {
+        display: grid;
+        grid-template-columns: 26rem 1fr 1fr 1fr;
+        gap: 7rem;
+
+        article {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 1rem;
+
+            .logo {
+                margin-block-end: -1rem;
+                transition: $transition;
+
+                a {
+
+                    img {
+                        width: 5rem;
+                        filter: invert(1);
+                    }
+                }
+
+                &:hover {
+                    transform: scale(1.1);
+                }
+            }
+
+            p {
+                margin-block-start: .5rem;
+                color: $black-color;
+                font-weight: 700;
+            }
+
+            h4 {
+                margin-block-end: .6rem;
+                font-size: 1rem;
+                color: $white-color;
+                font-weight: 500;
+                text-transform: uppercase;
+            }
+
+            a {
+                color: $blue-color;
+                font-weight: 700;
+                text-transform: capitalize;
+                transition: $transition;
+
+                &:hover {
+                    transform: translateX(10px);
+                }
+            }
+
+            .footer-socials {
+                margin-block-start: 1.5rem;
+                display: flex;
+                align-items: center;
+                gap: 1.5rem;
+
+                a {
+                    font-size: 1.5rem;
+                    color: $white-color;
+                    transition: $transition;
+
+                    &:hover {
+                        transform: translateY(-10px);
+                    }
+                }
+            }
+        }
+    }
+
+    .footer-copy {
+        text-align: center;
+        padding: 1.5rem 0;
+        margin-block-start: 4rem;
+
+        small {
+            font-weight: 500;
+            color: $black-color;
+        }
+    }
+}
+
+
+/*==========Media Query==========*/
+@media (max-width: 1024px) {
+    .footer {
+    
+        .footer__container {
+            grid-template-columns: 26rem  1fr;
+            gap: 2rem;
+        }
+    }
+    
+}
+
+
+/*==========Media Query==========*/
+@media (max-width: 768px) {
+    .footer {
+    
+        .footer__container {
+            grid-template-columns: 1fr;
+            gap: 4rem;
+        }
+
+        .footer-copy {
+    
+            small {
+                font-weight: 400;
+                font-size: .8rem;
+            }
+        }
+    }
+    
+}
