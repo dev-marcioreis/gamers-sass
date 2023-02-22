@@ -1,5 +1,5 @@
 .category-section {
-    margin-block-start: .5rem;
+    margin-block-start: -1rem;
     background: $black-color;
    
     .container {
@@ -47,13 +47,4 @@
             }
         }
     }
-}
-
-
-/*==========Media Query==========*/
-@media (max-width: 1024px) {
-    .category-section {
-        margin-block-start: -.5rem;
-    }
-
 }
