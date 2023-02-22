@@ -29,6 +29,15 @@ body {
 .flex {
     display: flex;
 }
+.headers {
+    text-align: center;
+    margin-block-end: 3rem;
+
+    h4 {
+        font-family: $logo-font;
+        color: $card-color;
+    }
+}
 img {
     max-width: 100%;
     height: auto;

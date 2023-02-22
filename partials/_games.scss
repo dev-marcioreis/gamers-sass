@@ -3,16 +3,6 @@
     .games__container {
         padding: 0 5rem;
 
-        .headers {
-            text-align: center;
-            margin-block-end: 3rem;
-
-            h4 {
-                font-family: $logo-font;
-                color: $card-color;
-            }
-        }
-
         .games-card {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
