@@ -1,5 +1,4 @@
 .games {
-    margin-block-end: 10rem;
 
     .games__container {
         padding: 0 5rem;
@@ -10,7 +9,7 @@
 
             h4 {
                 font-family: $logo-font;
-                color: $yellow-color
+                color: $card-color;
             }
         }
 
