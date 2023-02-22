@@ -16,6 +16,14 @@ const closeMenu = () => {
 
 closeBtn.addEventListener('click', closeMenu)
 
+if(window.innerWidth > 100) {
+    document.querySelectorAll('.menu-list .menu-link').forEach(headerNavigation => {
+        headerNavigation.addEventListener('click', () => {
+            closeMenu()
+        })
+    })
+}
+
 
 
 const scrollPage = ScrollReveal({
