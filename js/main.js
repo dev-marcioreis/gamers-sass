@@ -27,6 +27,8 @@ const scrollPage = ScrollReveal({
 
 scrollPage.reveal(`.category-content`, {delay: 100, origin: 'bottom'})
 scrollPage.reveal(`.about-image`, {delay: 100, origin: 'left'})
+scrollPage.reveal(`#card1`, {delay: 100, origin: 'top'})
+scrollPage.reveal(`#card2`, {delay: 100, origin: 'bottom'})
 
 
 
