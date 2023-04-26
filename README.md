@@ -7,7 +7,7 @@ Utilizado muitos efeitos em SCSS.
 
 ## 🚀 Finalizado.
 
-## 📋 Técnologias
+## 📋 Tecnologias
 HTML + SCSS + JavaScript
 
 ## ✒️ Autor
